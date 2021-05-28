@@ -1,0 +1,49 @@
+// **************************************************************************
+// TypeAdapterGenerator
+// **************************************************************************
+
+class CityObjectAdapter extends TypeAdapter<CityObject> {
+  @override
+  final int typeId = 2;
+
+  @override
+  CityObject read(BinaryReader reader) {
+    final numOfFields = reader.readByte();
+    final fields = <int, dynamic>{
+      for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
+    };
+    return CityObject(
+      cityName: fields[0] as String,
+      countryName: fields[1] as String,
+      imageUrl: fields[2] as String,
+      description: fields[3] as String,
+      activitiesCount: fields[4] as int,
+    );
+  }
+
+  @override
+  void write(BinaryWriter writer, CityObject obj) {
+    writer
+      ..writeByte(5)
+      ..writeByte(0)
+      ..write(obj.cityName)
+      ..writeByte(1)
+      ..write(obj.countryName)
+      ..writeByte(2)
+      ..write(obj.imageUrl)
+      ..writeByte(3)
+      ..write(obj.description)
+      ..writeByte(4)
+      ..write(obj.activitiesCount);
+  }
+
+  @override
+  int get hashCode => typeId.hashCode;
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is CityObjectAdapter &&
+          runtimeType == other.runtimeType &&
+          typeId == other.typeId;
+}

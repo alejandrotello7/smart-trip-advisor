@@ -1,0 +1,180 @@
+/* Dresden */
+
+
+/* Venice */ 
+
+Activity(
+name: "St Mark's Square",
+description: "Urban square in Venice",
+price: 0,
+pricePer: "",
+openingTime: "10:00 am", // What do to when there is no time? //
+closingTime: "10:00 pm", 
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["outdoors", "family", "public"]),
+
+Activity(
+name: "St Mark's Basilica",
+description: "Cathedral church of the Roman Catholic Archdiocese of Venice,",
+price: 0,
+pricePer: "",
+openingTime: "9:30 am",
+closingTime: "5:00 pm",
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["outdoors", "church", "catholic"]),
+
+Activity(
+name: "Doge's Palace",
+description: "Gothic style palace",
+price: 10,
+pricePer: "per person",
+openingTime: "8:30 am",
+closingTime: "7:00 pm",
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["outdoors", "gothic", "palace"]),
+
+Activity(
+name: "Rialto Bridge",
+description: "Oldest bridge crossing Venice",
+price: 0,
+pricePer: "",
+openingTime: "8:30 am", /* Opens all day */ 
+closingTime: "7:00 pm",
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["outdoors", "bridge", "history"]),
+
+Activity(
+name: "St Mark's Campanile",
+description: "Bell tower of St Mark's Basilica",
+price: 0,
+pricePer: "",
+openingTime: "9:45 am", 
+closingTime: "7:00 pm",
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["indoors", "history", "church"]),
+
+Activity(
+name: "Peggy Guggenheim Collection",
+description: "Modern art museum on the Grand Canal",
+price: 15,
+pricePer: "per person", /* How to differentiate price per Adult, Senior, Student and Childrens? */
+openingTime: "10:00 am", 
+closingTime: "6:00 pm",
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["indoors", "art", "museum"]),
+
+Activity(
+name: "Venice Giardini",
+description: "Historic parkland",
+price: 0,
+pricePer: "", 
+openingTime: "12:00 am", /* Opens all day */
+closingTime: "12:00 pm",  
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["outdoors", "park", "history"]),
+
+
+/* Paris */
+
+
+Activity(
+name: "Eiffel tower",
+description: "Wrought-iron lattice tower on the Champ de Mars",
+price: 10.40, /* I think we should add a "starting from" price */
+pricePer: "per person", 
+openingTime: "9:00 pm", 
+closingTime: "11:00 pm",  
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["outdoors", "public", "must-do"]), /* maybe add a musd-do tag for the most important */
+
+
+Activity(
+name: "Louvre Museum",
+description: "World's largest art museum",
+price: 15,
+pricePer: "per person", 
+openingTime: "9:00 am", 
+closingTime: "6:00 pm",  
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["indoors", "museum", "art", "must-do"]),
+
+
+Activity(
+name: "Notre-dame de Paris",
+description: "Medieval catholic cathedral",
+price: 0,
+pricePer: "", 
+openingTime: "8:00 am", /* How to differentiate opening times on weekdays and weekends? */
+closingTime: "7:45 pm",   
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["indoors", "cathedral", "must-do"]),
+
+
+Activity(
+name: "Arc de Triomphe",
+description: "Famous Paris monument",
+price: 0,
+pricePer: "", 
+openingTime: "12:00 am", /* Opens all day */ 
+closingTime: "12:00 am",  
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["outdoors", "architecture", "history"]),
+
+
+Activity(
+name: "Basilica of the Sacred Heart of Paris",
+description: "Roman catholic church and minor basilica",
+price: 0,
+pricePer: "", 
+openingTime: "6:00 am", 
+closingTime: "10:30 pm",  
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["indoors", "church", "catholic"]),
+
+
+
+Activity(
+name: "Musée d'Orsay",
+description: "Famous art museum",
+price: 14,
+pricePer: "per person", 
+openingTime: "9:30 am", 
+closingTime: "6:00 pm",  
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["indoors", "museum", "art"]),
+
+
+
+Activity(
+name: "Palace of Versailles",
+description: "Fomer principal royal residence of France",
+price: 10,
+pricePer: "per person", 
+openingTime: "8:00 am", /* How to deal with activities that open only certain days? */ 
+closingTime: "6:00 pm",  
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["outdoors", "art", "garden"]),
+
+
+
+Activity(
+name: "Paris Saint-Germain Tour",
+description: "Football stadium tour",
+price: 14.90,
+pricePer: "per person", /* Different price per person,child*/
+openingTime: "9:00 am", 
+closingTime: "6:00 pm",  
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["indoors", "sports", "football"]),
+
+
+
+Activity(
+name: "Tuileries Garden",
+description: "Public garden with statues",
+price: 0,
+pricePer: "", 
+openingTime: "12:00 am", 
+closingTime: "12:00 pm",  
+imageUrl: "assets/images/saxon_switzerland.png",
+tags: ["outdoors", "park", "public"]),

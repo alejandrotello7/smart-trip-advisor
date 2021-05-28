@@ -1,0 +1,26 @@
+[{
+        "cityName" : "Dresden",
+        "countryName" : "Germany",
+        "currentWeather" : -5
+    },
+    {
+        "cityName" : "Frankfurt",
+        "countryName" : "Germany",
+        "currentWeather" : -3
+    },    
+    {
+        "cityName" : "Venice",
+        "countryName" : "Italy",
+        "currentWeather" : 5
+    },    
+    {
+        "cityName" : "Rome",
+        "countryName" : "Italy",
+        "currentWeather" : 3
+    },    
+    {
+        "cityName" : "Paris",
+        "countryName" : "France",
+        "currentWeather" : 12.5
+    }
+]

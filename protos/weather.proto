@@ -1,0 +1,33 @@
+syntax = "proto3";
+package weather;
+
+service Weather{
+    rpc getCurrentWeatherByGeolocation(LocationByGeolocation) returns (CurrentWeather) {}
+    rpc getCurrentWeatherByCity(LocationByCityName) returns (CurrentWeather) {}
+    rpc getForecastWeather(LocationBase) returns (ForecastWeather) {}
+}
+
+message LocationBase{
+    string cityName = 1;
+    string countryName = 2;
+}
+
+message LocationByGeolocation{
+    double latitude = 1;
+    double longitude = 2;
+}
+
+message LocationByCityName{
+    string cityName = 1;
+}
+
+message CurrentWeather{
+    int32 currentWeather = 1;
+    LocationBase location = 2;
+}
+
+message ForecastWeather{
+    int32 currentWeather = 1;
+    repeated double forecastWeather = 2; //array containing N values for weather forecast.
+    
+}
