@@ -334,7 +334,7 @@ class ActivitiesFiller {
         ..description = "Famous art museum"
         ..price = 14
         ..pricePer = "per person"
-        ..openingTime = "9:30 am"
+        ..openingTime = "10:30 am"
         ..closingTime = "6:00 pm"
         ..imageUrl = "assets/images/orsay.png"
         ..tags.addAll(["indoors", "museum", "art"])
